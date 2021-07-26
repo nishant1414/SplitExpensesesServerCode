@@ -20,6 +20,8 @@ namespace SplitExpenses.Controllers
             _expenseService = expenseService;
         }
 
+
+
         [Route("expenses")]
         [HttpGet]
         public ActionResult<List<Expense>> GetAllExpense()
